@@ -1,12 +1,18 @@
 [tool.poetry]
 name = "template"
 version = "0.1.0"
-description = "模板"
+description = "简单卷积神经网络示例"
 authors = ["Ike-li <viktorl@163.com>"]
 readme = "../README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+matplotlib = "^3.10.1"
+scikit-learn = "^1.6.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
 
 
 [tool.poetry.group.dev.dependencies]
